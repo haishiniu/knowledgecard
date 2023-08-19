@@ -1,7 +1,4 @@
 import type { NextPage } from "next";
-import Link from "next/link";
-import { useEffect, useRef } from "react";
-
 import ScrollUp from "@/components/Common/ScrollUp";
 
 import Features from "@/components/Features";

@@ -1,5 +1,4 @@
 import type { AppProps } from "next/app";
-import Layout from "../components/Layout";
 import RootLayout from "./layout";
 import { DefaultSeo } from "next-seo";
 import { config } from "../config";
