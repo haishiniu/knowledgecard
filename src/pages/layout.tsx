@@ -2,7 +2,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
-import { Providers } from "./providers";
+import { Providers } from "@/components/providers";
 
 export default function RootLayout({
   children,

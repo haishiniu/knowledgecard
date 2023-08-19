@@ -6,7 +6,6 @@ import Error from "next/error";
 import { getArticleDetail } from "../../lib/db";
 import { InferGetServerSidePropsType } from "next";
 import { Article } from "../../types/article";
-import MarkdownIt from "markdown-it";
 import matter from "gray-matter";
 
 import { NextSeo } from "next-seo";
@@ -17,7 +16,6 @@ require("prismjs/components/prism-typescript");
 require("prismjs/components/prism-bash");
 require("prismjs/components/prism-markdown");
 
-const md = new MarkdownIt();
 
 export default function Page({
   data,
@@ -67,9 +65,6 @@ export default function Page({
         )}
       </div>
       <div
-        dangerouslySetInnerHTML={{
-          __html: md.render(result.content),
-        }}
       ></div>
     </div>
   );
