@@ -54,12 +54,12 @@ const Header = () => {
               >
                 <div className="flex">
                   <Image
-                    src="/images/about/about-image-2.svg"
-                    alt="about image"
+                    src="/images/logo/icon128.png"
+                    alt="logo image"
                     width={30}
                     height={30}
                   />
-                  <div className="text-md h-10 p-2 align-middle font-semibold text-gray-800">Keyword<span className="text-blue-600">Sea</span></div>
+                  <div className="text-md h-10 p-2 align-middle font-semibold text-gray-800">Keyword<span className="text-primary">Sea</span></div>
                 </div>
 
               </Link>
