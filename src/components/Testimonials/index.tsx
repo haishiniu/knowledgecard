@@ -6,27 +6,27 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    designation: "Founder @Design",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I highly recommend using the Anki memory card creation plugin to organize programming language and algorithm knowledge points, and I insist on using it every day for review. I also use this plugin to record my programming experience and methods, and constantly optimize my programming skills. At the same time, the image masking function of the plug-in is also used to present the key steps of the programming algorithm in the form of image masking, and to consolidate programming skills through recalling the content of the images. I am currently working at a well-known technology company.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
+    name: "Devid Wei",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I decided to apply for the civil service and hope to become a civil servant. Use Anki memory card creation plug-in to review the knowledge points of the civil service exam, and insist on using and reviewing it every day. Using the image masking function of the plug-in, the exam highlights are presented in the form of image masking, and the understanding of the knowledge points is deepened by recalling the content of the images. Finally, I achieved excellent results in the civil service exam and have successfully been admitted to an institution.",
     image: "/images/testimonials/auth-02.png",
-    star: 5,
+    star: 4,
   },
   {
     id: 3,
     name: "Lethium Frenci",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I am a working professional. In order to improve my professional skills, I use Anki memory card creation plug-ins to learn industry knowledge and skills. I will organize relevant knowledge points into cards based on work needs and review them. I also use this plugin to share experience and knowledge with colleagues. Through continuous efforts, I have achieved significant success in my career and received recognition from colleagues and superiors. I recommend that colleagues in the workplace use it.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -39,8 +39,8 @@ const Testimonials = () => {
     className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Loved by businesses worldwide."
+          paragraph="Our  tool is so simple that people can not help but fall in love with it."
           center
         />
 

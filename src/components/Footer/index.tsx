@@ -206,7 +206,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-                Copyright &copy;2023 LearnWord. All rights reserved.
+                Copyright &copy;2023 KnowledgeCard. All rights reserved.
             </p>
           </div>
         </div>
